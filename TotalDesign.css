@@ -1,0 +1,205 @@
+body {
+   margin:0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    flex-direction: column;
+
+    margin:0;
+    min-height:130vh;
+
+    background:
+    linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
+    url("https://hips.hearstapps.com/hmg-prod/images/delish-230502-06-fried-chicken-0887-eb-index-645ec6fb0ca64.jpg?crop=0.6666666666666667xw:1xh;center,top&resize=1200:*");
+
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+
+
+/*  Headings Yung Sa taas */
+header {
+    background: #ec3f21; 
+    justify-content:space-between;
+    align-items: center;
+    display: flex;
+    padding: 5px 20px;
+    height: 70px;
+}
+
+.header1 {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 63px;
+    width: auto;
+    border-radius: 50%;
+    margin-right: 15px; 
+}
+
+.brand {
+   font-size: 22px;
+    font-weight: bold;
+    color: #ffffff; 
+}
+
+.header2 {
+    color: white;
+    font-style: italic;
+    font-size: 16px;
+
+}
+
+
+
+
+/*Navigation - isa pang Bar */
+nav{
+    background:#222;
+    text-align:center;
+    padding:10px;
+    margin:0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+    display:flex;
+    justify-content:space-evenly;
+}
+
+nav ul li a{
+        color: white;
+    text-decoration:none;
+}
+
+
+
+
+/*For the Contentss*/
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.Box1 {
+    background:white;
+    padding:20px;
+    text-align: center;
+    margin:20px auto;
+    width:80%;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+    border-radius:8px;
+}
+
+.Box2 { /*Ginamit sa Menu & Contacts*/
+    background:white;
+    text-align: left;
+    padding:20px;
+    margin:30px auto;
+    width:80%;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+    border-radius:8px;
+}
+
+.Box3 { /*Ginamit sa About*/
+    background: white;
+    padding: 40px;
+    width: 85%;
+    max-width: 800px;
+    text-align: left;
+    box-shadow: 0 5px 25px rgba(0,0,0,0.1);
+    border-radius: 15px;
+}
+
+
+
+/*HomepageBoxTitle na ginamit ko sa Homepage*/
+.BoxTitle {
+    font-size: 40px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.BoxLowerTitle {
+    font-size: 20px;
+    color: #404040;
+    margin-bottom: 30px;
+}
+
+/* View Menu Button */
+.MenuButton {
+    display: inline-block;
+    background-color: #ec3f21;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+
+.MenuButton:hover {
+    background-color: #222;
+}
+
+/* tatlong ewan */
+.features-grid {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    margin-top: 20px;
+    border-top: 1px solid #eee;
+    padding-top: 30px;
+}
+
+.feature {
+    flex: 1;
+}
+
+.feature h3 {
+    color: #1c4d5c;
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+}
+
+.feature p {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+
+
+
+
+/* Para sa mga picture ng pagkain na napaka sarap MENU*/
+.menu-item {
+    display:flex; 
+    align-items: center;
+    gap: 30px; 
+    padding: 30px;
+}
+
+
+.menu-img {
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+    
+}
+
+footer {
+    background: #222;
+    color: white;
+    text-align: Left;
+    padding: 20px;
+    margin-top: auto;
+}
